@@ -78,7 +78,7 @@
     </button>
 
 
-    <section class="ftco-cover ftco-slant" style="background-image: url({{ asset('frontend/images/B1.jpg') }}); opacity: 0.85" id="section-home">
+    <section class="ftco-cover ftco-slant" style="background-image: url({{ asset('frontend/images/recent.jpg') }}); opacity: 0.85" id="section-home">
         <div class="container">
             <div class="row align-items-center justify-content-center text-center ftco-vh-100">
                 <div class="col-md-10">
