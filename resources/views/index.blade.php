@@ -30,7 +30,6 @@
     <link rel="stylesheet" href="{{ asset('frontend/css/icomoon.css') }}" />
     <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}" />
 
-    {{ asset('frontend/') }}
 </head>
 
 <body data-spy="scroll" data-target="#ftco-navbar" data-offset="200">
@@ -79,7 +78,7 @@
     </button>
 
 
-    <section class="ftco-cover ftco-slant" style="background-image: url(images/B1.jpg); opacity: 0.85" id="section-home">
+    <section class="ftco-cover ftco-slant" style="background-image: url({{ asset('frontend/images/B1.jpg') }}); opacity: 0.85" id="section-home">
         <div class="container">
             <div class="row align-items-center justify-content-center text-center ftco-vh-100">
                 <div class="col-md-10">
@@ -294,7 +293,7 @@
                     <hr class="center-line">
                     <div class="row no-gutters align-items-center ftco-animate">
                         <div class="col-md-6 order-md-3 mb-md-0 mb-5 mt-5">
-                            <img src="images/B4.jpg" alt="image" class="img-fluid" />
+                            <img src="{{ asset('frontend/images/B4.jpg') }}" alt="image" class="img-fluid" />
                         </div>
                         <div class="col-md-6 p-md-5 order-md-1">
                             <p class="lead">
